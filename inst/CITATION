@@ -1,0 +1,17 @@
+citHeader("Please cite the original article when using the Political Inequality in Participation Index (PIPI):")
+
+bibentry(
+  bibtype = "Article",
+  title = "Political inequality in participation index - a Gini-based measure of inequalities in political participation",
+  author = c(
+    person(given = "Pál", family = "Susánszky"),
+    person(given = "Róbert", family = "Somogyi"),
+    person(given = "Gergely", family = "Tóth")
+  ),
+  journal = "Rationality and Society",
+  year = "2023",
+  volume = "35",
+  number = "2",
+  pages = "231-255",
+  doi = "10.1177/10434631221143614"
+)

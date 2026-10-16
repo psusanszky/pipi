@@ -1,0 +1,24 @@
+Package: pipi
+Title: Political Inequality in Participation Index
+Version: 0.1.1
+Authors@R: c(
+    person(given = "Pál", family = "Susánszky",
+           email = "susanszky.pal@tk.hu", role = c("aut", "cre")),
+    person(given = "Róbert", family = "Somogyi", role = "aut"),
+    person(given = "Gergely", family = "Tóth", role = "aut")
+    )
+Description: Computes the Political Inequality in Participation Index (PIPI),
+    a generalized-Gini-based index of inequalities in political participation.
+    Supports respondent-level data with optional fixed survey weights and
+    aggregated integer group counts. Estimates the GEGINI expected under
+    random allocation of the observed number of participants, determines a
+    feasible maximum, and offers an independent and identically distributed
+    nonparametric bootstrap for uncertainty assessment. Uses only R's bundled
+    base and recommended packages. The index was introduced by
+    Susánszky, Somogyi and Tóth (2023) <doi:10.1177/10434631221143614>.
+License: GPL (>= 3)
+Encoding: UTF-8
+Depends: R (>= 4.0.0)
+Imports: stats, utils, graphics
+NeedsCompilation: no
+URL: https://doi.org/10.1177/10434631221143614
