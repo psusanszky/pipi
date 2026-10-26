@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use the PIPI R package, please cite the original methodological article."
+type: software
+title: "pipi: Political Inequality in Participation Index"
+version: 0.1.1
+date-released: 2026-10-16
+license: GPL-3.0-or-later
+repository-code: "https://github.com/psusanszky/pipi"
+url: "https://github.com/psusanszky/pipi"
+authors:
+  - family-names: "Susánszky"
+    given-names: "Pál"
+  - family-names: "Somogyi"
+    given-names: "Róbert"
+  - family-names: "Tóth"
+    given-names: "Gergely"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Susánszky"
+      given-names: "Pál"
+    - family-names: "Somogyi"
+      given-names: "Róbert"
+    - family-names: "Tóth"
+      given-names: "Gergely"
+  title: "Political inequality in participation index - a Gini-based measure of inequalities in political participation"
+  journal: "Rationality and Society"
+  year: 2023
+  volume: 35
+  issue: 2
+  start: 231
+  end: 255
+  doi: "10.1177/10434631221143614"
